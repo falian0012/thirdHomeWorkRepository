@@ -4,7 +4,7 @@ while break_point:
     list = input().split(" ")
     temp_value = 0
     for item in list:
-        if item == "#":
+        if item == "!":
             break_point = False
             break
         temp_value += int(item)
